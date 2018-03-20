@@ -1,0 +1,29 @@
+{
+  "id": "f2f05a6e-eb82-4b60-a17a-80e1e6888821",
+  "name": "Info About Astronauts",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.details",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1521502124,
+  "fallbackIntent": false,
+  "events": []
+}

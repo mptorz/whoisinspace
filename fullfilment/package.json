@@ -1,0 +1,23 @@
+{
+  "name": "Who is in space",
+  "description": "This is a fullfilment for google assistant app called \"Who is in space\"",
+  "version": "1.0",
+  "private": true,
+  "license": "Apache Version 2.0",
+  "author": "Mikolaj Torz",
+  "engines": {
+    "node": "~6.0"
+  },
+  "scripts": {
+    "start": "firebase serve --only functions:dialogflowFirebaseFulfillment",
+    "deploy": "firebase deploy --only functions:dialogflowFirebaseFulfillment"
+  },
+  "dependencies": {
+    "actions-on-google": "^1.5.x",
+    "firebase-admin": "^4.2.1",
+    "firebase-functions": "^0.5.7",
+    "apiai": "^4.0.3",
+    "request": "^2.83.0",
+    "require": "^2.4.20"
+  }
+}
